@@ -1,0 +1,30 @@
+*{
+  margin:0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -box-sizing: border-box;
+
+}
+body{
+  background: #313D52;
+}
+.navegacion{
+  width: 400px;
+  margin: 30px auto;
+  background: #fff;
+}
+.navegacion ul { /*llamo a todos los ul*/
+  list-style: none;
+}
+.menu > li{ /*llamo a todos los li
+  position: relative;*/
+  display: inline-block;
+}
+.menu > li > a{
+  display: block;
+  padding: 15px 20px;
+  color: #353535
+  font-style:italic;
+  text-decoration: none;
+}
